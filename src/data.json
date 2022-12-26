@@ -8,10 +8,11 @@
         "revolution": "87.97 days",
         "radius": "2,439.7 km",
         "avTemp": "430°c",
-        "color": "#419EBB"
+        "color": "#419EBB",
+        "iconC": "#DEF4FC"
     },
     {
-        "name": "VENUS",
+        "name": "venus",
         "overview": "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.",
         "structure": "The similarity in size and density between Venus and Earth suggests they share a similar internal structure: a core, mantle, and crust. Like that of Earth, Venusian core is most likely at least partially liquid because the two planets have been cooling at about the same rate.",
         "geology": "Much of the Venusian surface appears to have been shaped by volcanic activity. Venus has several times as many volcanoes as Earth, and it has 167 large volcanoes that are over 100 km (60 mi) across. The only volcanic complex of this size on Earth is the Big Island of Hawaii.",
@@ -19,10 +20,11 @@
         "revolution": "224.7 days",
         "radius": "6,051.8 km",
         "avTemp": "471°c",
-        "color": "#EDA249"
+        "color": "#EDA249",
+        "iconC": "#F7CC7F"
     },
     {
-        "name": "EARTH",
+        "name": "earth",
         "overview": "Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.",
         "structure": "Earth's interior, like that of the other terrestrial planets, is divided into layers by their chemical or physical (rheological) properties. The outer layer is a chemically distinct silicate solid crust, which is underlain by a highly viscous solid mantle.",
         "geology": "The total surface area of Earth is about 510 million km2. The continental crust consists of lower density material such as the igneous rocks granite and andesite. Less common is basalt, a denser volcanic rock that is the primary constituent of the ocean floors.",
@@ -30,10 +32,11 @@
         "revolution": "365.26 days",
         "radius": "6,371 km",
         "avTemp": "16°c",
-        "color": "#6D2ED5"
+        "color": "#6D2ED5",
+        "iconC": "#545BFE"
     },
     {
-        "name": "MARS",
+        "name": "mars",
         "overview": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the 'Red Planet'.",
         "structure": "Like Earth, Mars has differentiated into a dense metallic core overlaid by less dense materials. Scientists initially determined that the core is at least partially liquid. Current models of its interior imply a core consisting primarily of iron and nickel with about 16–17% sulfur.",
         "geology": "Mars is a terrestrial planet whose surface consists of minerals containing silicon and oxygen, metals, and other elements that typically make up rock. The surface is primarily composed of tholeiitic basalt, although parts are more silica-rich than typical basalt.",
@@ -41,7 +44,8 @@
         "revolution": "1.88 years",
         "radius": "3,389.5 km",
         "avTemp": "−28°c",
-        "color": "#D14C32"
+        "color": "#D14C32",
+        "iconC": "#545BFE"
     },
     {
         "name": "jupiter",
@@ -52,7 +56,8 @@
         "revolution": "11.86 years",
         "radius": "69,911 km",
         "avTemp": "-108°c",
-        "color": "#D83A34"
+        "color": "#D83A34",
+        "iconC": "#ECAD7A"
     },
     {
         "name": "saturn",
@@ -63,10 +68,11 @@
         "revolution": "29.46 years",
         "radius": "58,232 km",
         "avTemp": "-138°c",
-        "color": "#CD5120"
+        "color": "#CD5120",
+        "iconC": "#FCCB6B"
     },
     {
-        "name": "Uranus",
+        "name": "uranus",
         "overview": "Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus according to Greek mythology, was the great-grandfather of Ares. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.",
         "structure": "The standard model of Uranus's structure is that it consists of three layers: a rocky (silicate/iron–nickel) core in the centre, an icy mantle in the middle and an outer gaseous hydrogen/helium envelope. The core is relatively small, with a mass of only 0.55 Earth masses.",
         "geology": "The composition of Uranus's atmosphere is different from its bulk, consisting mainly of molecular hydrogen and helium. The helium molar fraction, i.e. the number of helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.",
@@ -74,7 +80,8 @@
         "revolution": "84 years",
         "radius": "25,362 km",
         "avTemp": "-195°c",
-        "color": "#1EC1A2"
+        "color": "#1EC1A2",
+        "iconC": "#65F0D5"
     },
     {
         "name": "neptune",
@@ -85,6 +92,7 @@
         "revolution": "164.79 years",
         "radius": "24,622 km",
         "avTemp": "-201°c",
-        "color": "#2D68F0"
+        "color": "#2D68F0",
+        "iconC": "#497EFA"
     }
 ]
