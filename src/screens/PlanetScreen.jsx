@@ -1,9 +1,10 @@
 import React from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import BlockSection from '../components/BlockSection'
 import PlanetImage from '../components/PlanetImage'
 import PlanetNavM from '../components/PlanetNavM'
 import PlanetNavS from '../components/PlanetNavS'
+import WikiLink from '../components/WikiLink'
 import data from '../data.json'
 
 export default function PlanetScreen() {
@@ -38,27 +39,15 @@ export default function PlanetScreen() {
           <PlanetImage name={name} show={show} />
         </div>
 
-        <div className=" text-center mt-[5rem] lg:mt-0 mx-auto md:flex gap-[70px] md:text-left lg:flex-col lg:justify-center">
+        <div className="text-center mt-[5rem] lg:mt-0 mx-auto md:flex gap-[70px] lg:gap-8 md:text-left lg:flex-col lg:justify-center ">
           <div className="max-w-[340px]">
             <h1 className="text-[40px] md:text-[48px] lg:text-[80px] uppercase">
               {planet.name}
             </h1>
-            <div className="text-[11px] font-spartan mt-4 mb-8 ">
+            <div className="text-[11px] lg:text-[14px] tracking-wide font-spartan mt-4 mb-8 lg:mb-6">
               {planet[show]}
             </div>
-            <div className="text-[12px] pointer-events-auto flex gap-1 justify-center opacity-50 md:justify-start">
-              <span>Source: </span>
-              <span className="flex gap-1">
-                <a
-                  href={`https://en.wikipedia.org/wiki/${name}`}
-                  target="_blank"
-                  className="underline font-bold"
-                >
-                  Wikipedia
-                </a>
-                <img src="/assets/icon-source.svg" alt="source icon" />
-              </span>
-            </div>
+            <WikiLink name={name} />
           </div>
 
           <PlanetNavM
