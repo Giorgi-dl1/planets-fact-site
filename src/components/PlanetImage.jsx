@@ -8,14 +8,16 @@ export default function PlanetImage({ name, show }) {
       return <img src={`/assets/planet-${name}-internal.svg`} alt="planet" />
     case 'geology':
       return (
-        <div className="relative max-w-max mb-[5rem]">
-          <img src={`/assets/planet-${name}.svg`} alt="planet" />
+        <>
+          <div className="relative max-w-max ">
+            <img src={`/assets/planet-${name}.svg`} alt="planet" />
+          </div>
           <img
             src={`/assets/geology-${name}.png`}
             alt="icon"
-            className="absolute w-[40%] bottom-0 translate-y-[50%] left-[50%] translate-x-[-50%]"
+            className="absolute w-[30%] md:w-[163px] top-[50%] md:top-[57%] left-[50%] translate-y-[2rem] translate-x-[-50%]"
           />
-        </div>
+        </>
       )
 
     default:
