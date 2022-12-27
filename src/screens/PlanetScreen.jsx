@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import BlockSection from '../components/BlockSection'
 import PlanetImage from '../components/PlanetImage'
@@ -26,6 +26,9 @@ export default function PlanetScreen() {
   ]
 
   const planet = data.filter((planet) => planet.name === name)[0]
+  useEffect(() => {
+    document.title = name
+  }, [name])
   return (
     <>
       <PlanetNavS
